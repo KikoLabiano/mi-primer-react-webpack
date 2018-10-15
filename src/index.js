@@ -1,8 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Layout from './js/components/Layout';
 
-const Index = ()=>{
-    return <div>YEEEEEEEEEEEEHA!</div>;
-  }
-
-  ReactDOM.render(<Index/>,document.getElementById("index"));
+ReactDOM.render(<Layout/>,document.getElementById("index"));
